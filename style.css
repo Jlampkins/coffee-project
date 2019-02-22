@@ -60,3 +60,8 @@ label {
 #addCoffee {
     display: none;
 }
+
+.lightbulb {
+    width: 10%;
+    height: 10%;
+}

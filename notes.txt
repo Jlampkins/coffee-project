@@ -1,19 +1,4 @@
 
-+Center title on top of page
-
-///////////////////////////////////////////////////////////////////////////
-Bonus
-
-Style it!
-
-The page looks pretty plain as it is, and the refactoring we did above to use divs for coffees should give us more flexibility in styling. (Hint: the styling shown in the example below can be achieved purely with bootstrap classes, that is, without custom CSS)
-
-+Make page look like a cafe chalkboard
-    Make body background black, possibly a seamless texture background
-    Get creative fonts
-    Change buttons to integrate into design plan
-
-
 ///////////////////////////////////////////////////////////////////////////
 
 Allow the user to add new coffees to the page
