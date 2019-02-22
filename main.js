@@ -4,10 +4,10 @@ function randomColor() {
     var randomNum = Math.floor(Math.random() * 4);
 
     var colors = [
-        "#FF6F61",
+        "#88B04B",
         "#F1EA7F",
         "#95DEE3",
-        "#EDCDC2"
+        "#D65076"
     ];
 
     return colors[randomNum];
@@ -18,7 +18,7 @@ function coffeeNameColor(){
 }
 
 function renderCoffee(coffee) {
-    var html = '<div class="col-12 col-md-6 p-0">'; /** this is the entire container **/
+    var html = '<div class="col-12 col-sm-6 p-0">'; /** this is the entire container **/
     html += coffeeNameColor() + coffee.name + "</h3>";
     html += '<p class="pr-2">' + coffee.roast + "</p>";
     html += "</div>";

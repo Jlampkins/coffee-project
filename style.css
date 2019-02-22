@@ -1,24 +1,32 @@
 h1 {
-    color: lightcoral;
+    color: #E15D44;
     font-family: "Homemade Apple", sans-serif;
     padding: 0;
     margin: 0 auto;
+    display: inline-block;
 }
 
 h3, p{
     color: lightgrey;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 h3 {
     font-family: "Nanum Brush Script", sans-serif;
     font-size: 2em;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 p{
     padding-left: 1em;
-    color: white;
+    color: #cfcfc4;
+    font-weight: lighter;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-size: .8em;
+    margin-bottom: 2em;
+
 }
 
 label {
@@ -44,6 +52,7 @@ label {
         background-image: url("chalkboard.jpg");
         padding: 0 2em;
         margin-top: 2em;
+        margin-bottom: 6em;
     }
     #coffees {
         text-align: center;
@@ -61,7 +70,13 @@ label {
     display: none;
 }
 
+
 .lightbulb {
-    width: 10%;
-    height: 10%;
+
+
+}
+
+
+.title {
+    text-align: center;
 }
